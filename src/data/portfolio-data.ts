@@ -66,7 +66,7 @@ export const portfolioData: PortfolioData = {
     technologies: [
       "JavaScript", "TypeScript", "React",  "Node.js", 
          "MongoDB", 
-       "REST APIs", "Tailwind CSS", "Git",  "Microservices"
+       "REST APIs", "Tailwind CSS", "MYSQL", "Git",  "Microservices"
     ]
   }, 
  projects: [
@@ -162,12 +162,15 @@ export const portfolioData: PortfolioData = {
       url: "https://linkedin.com/in/zaaya-raphael",
       icon: "linkedin"
     },
-    {
+    /*
+      {
       id: "social-3",
       platform: "Twitter",
       url: "https://twitter.com/zaaya_raphael",
       icon: "twitter"
     },
+    */
+    
     {
       id: "social-4",
       platform: "Email",
