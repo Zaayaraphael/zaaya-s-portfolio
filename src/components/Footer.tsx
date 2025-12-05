@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Github, Linkedin, Twitter, Mail } from 'lucide-react';
+import { Github, Linkedin, Twitter, Mail, Phone, MessageCircle } from 'lucide-react';
 import type { SocialLink } from '../types/portfolio';
 
 interface FooterProps {
@@ -12,6 +12,8 @@ const iconMap = {
   linkedin: Linkedin,
   twitter: Twitter,
   mail: Mail,
+  phone: Phone,
+  whatsapp: MessageCircle,
 };
 
 export const Footer: React.FC<FooterProps> = ({ social }) => {

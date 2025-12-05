@@ -173,6 +173,18 @@ export const portfolioData: PortfolioData = {
       platform: "Email",
       url: "mailto:raphaelzaaya1@gmail.com",
       icon: "mail"
+    },
+    {
+      id: "social-5",
+      platform: "WhatsApp",
+      url: "https://wa.me/2348107016650",  
+      icon: "whatsapp"
+    },
+    {
+      id: "social-6",
+      platform: "Phone",
+      url: "tel:+2348107016650",  
+      icon: "phone"
     }
   ]
 };
