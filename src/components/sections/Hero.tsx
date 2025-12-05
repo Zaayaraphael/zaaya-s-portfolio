@@ -79,7 +79,7 @@ export const Hero = ({ personal }: HeroProps) => {
               className="inline-flex items-center gap-3 px-8 py-4 bg-primary text-primary-foreground font-inter font-medium rounded-lg hover:bg-primary/90 transition-colors duration-200 shadow-lg hover:shadow-xl"
             >
               <Download size={20} />
-              Download CV
+              Download My CV
             </motion.button>
           </motion.div>
 

@@ -115,11 +115,11 @@ export const portfolioData: PortfolioData = {
     {
       id: "edu-2",
       category: "certification",
-      title: "Full-Stack React Developer",
-      institution: "3MTT Nigeria",
+      title: "Software Development",
+      institution: "3MTT Nigeria & NITDA",
       dates: "2025",
-      description: "Professional certification demonstrating expertise in building full stack React application. Certificate in view.",
-      certificateUrl: "/certificates/aws-cert.jpg"
+      description: "Professional certification demonstrating expertise in building full stack React application. Covered advanced topics in React, Node.js, Express and MongoDB, with a focus on creating scalable, maintainable web applications. Validated skills in frontend and backend development, API design and deployment best practices.",
+      certificateUrl: "/certificates/3mtt.png"
     },
 
     {
@@ -138,7 +138,7 @@ export const portfolioData: PortfolioData = {
       title: "Career Essentials in Generative AI",
       institution: "Microsoft & LinkedIn",
       dates: "2025",
-      description: "Completed a foundational program covering core cpncepts of generative AI, practical use cases, responsible AI principles and real-world applications. Gained a solid understanding of how to integrate AI tools to enhance productivity and build smarter solutions",
+      description: "Completed a foundational program covering core concepts of generative AI, practical use cases, responsible AI principles and real-world applications. Gained a solid understanding of how to integrate AI tools to enhance productivity and build smarter solutions",
       certificateUrl: "/certificates/generativeAI.png"
     },
     
