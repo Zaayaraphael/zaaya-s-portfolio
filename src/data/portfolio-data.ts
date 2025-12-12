@@ -3,10 +3,10 @@ import type { PortfolioData } from '../types/portfolio';
 export const portfolioData: PortfolioData = {
   personal: {
     name: "Raphael Termough Zaaya",
-    title: "Junior Full Stack Developer",
-    bio: "I'm a full-stack developer based in Makurdi Benue State, Nigeria with 1+ years of hands-on experience building scalable, user-friendly web applications using MERN stack. I enjoy turning real problems into simple, functional solutions - whether it's cleanAPIs, optimizing frontend performance, or integrating AI features that make product smarter. My work focuses on writing maintainable code, improving application reliability, and delivering smooth user experiences. I thrive in fast-learning environments, collaborate well with teams, and continually challenge myself to master both frontend and backend development",
+    title: "Full Stack Software Engineer",
+    bio: "I'm a full-stack software engineer based in Makurdi Benue State, Nigeria with 1+ years of hands-on experience building scalable, user-friendly web applications using MERN stack. I enjoy turning real problems into simple, functional solutions - whether it's cleanAPIs, optimizing frontend performance, or integrating AI features that make product smarter. My work focuses on writing maintainable code, improving application reliability, and delivering smooth user experiences. I thrive in fast-learning environments, collaborate well with teams, and continually challenge myself to master both frontend and backend development",
     photo: "/images/profile/hero-photo.jpeg",
-    cvUrl: "/documents/cv.pdf"
+    cvUrl: "/documents/raphaelcv.pdf"
   },
 
   companies: [
