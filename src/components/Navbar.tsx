@@ -13,6 +13,7 @@ const navigationLinks = [
   { name: 'Home', href: '#home' },
   { name: 'About', href: '#about' },
   { name: 'Experience', href: '#experience' },
+ // { name: 'Companies', href: '#companies'},
   { name: 'Portfolio', href: '#portfolio' },
   { name: 'Education', href: '#education' },
   { name: 'Contact', href: '#contact' },

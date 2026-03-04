@@ -32,7 +32,7 @@ export const Loader = ({ onLoadComplete }: LoaderProps) => {
       transition={{ duration: 0.5 }}
       onAnimationComplete={handleAnimationComplete}
     >
-      <motion.div
+      <motion.div 
         className="relative flex items-center justify-center"
         initial={{ rotate: 0 }}
         animate={{ rotate: 360 }}

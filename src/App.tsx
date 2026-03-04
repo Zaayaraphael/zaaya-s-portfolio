@@ -8,6 +8,7 @@ import { portfolioData } from './data/portfolio-data';
 // Lazy load sections for code splitting
 const Hero = lazy(() => import('./components/sections/Hero').then(module => ({ default: module.Hero })));
 const Experience = lazy(() => import('./components/sections/Experience').then(module => ({ default: module.Experience })));
+//const Companies = lazy(() => import('./components/sections/Companies').then(module => ({ default: module.Companies })));
 const About = lazy(() => import('./components/sections/About').then(module => ({ default: module.About })));
 const Portfolio = lazy(() => import('./components/sections/Portfolio').then(module => ({ default: module.Portfolio })));
 const Education = lazy(() => import('./components/sections/Education').then(module => ({ default: module.Education })));
@@ -53,6 +54,15 @@ function AppContent() {
               <section id="experience">
                 <Experience experience={portfolioData.experience} />
               </section>
+
+
+              {/* Section Divider */}
+             {/* <div className="section-divider"></div> */}
+
+              {/* Companies Section */}
+           {/* <section id="experience"> 
+                <Companies companies={portfolioData.companies} />
+              </section> */}
 
               {/* Section Divider */}
               <div className="section-divider"></div>

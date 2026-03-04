@@ -4,18 +4,19 @@ export const portfolioData: PortfolioData = {
   personal: {
     name: "Raphael Termough Zaaya",
     title: "Full Stack Software Engineer",
-    bio: "I'm a full-stack software engineer based in Makurdi Benue State, Nigeria with 1+ years of hands-on experience building scalable, user-friendly web applications using MERN stack. I enjoy turning real problems into simple, functional solutions - whether it's cleanAPIs, optimizing frontend performance, or integrating AI features that make product smarter. My work focuses on writing maintainable code, improving application reliability, and delivering smooth user experiences. I thrive in fast-learning environments, collaborate well with teams, and continually challenge myself to master both frontend and backend development",
+    bio: "I'm a full-stack software engineer based in Jos - Plateau State, Nigeria with 1+ years of hands-on experience building scalable, user-friendly web applications using MERN stack. I enjoy turning real problems into simple, functional solutions - whether it's clean APIs, optimizing frontend performance, or integrating AI features that make product smarter. My work focuses on writing maintainable code, improving application reliability, and delivering smooth user experiences. I thrive in fast-learning environments, collaborate well with teams, and continually challenge myself to master both frontend and backend development",
     photo: "/images/profile/hero-photo.jpeg",
-    cvUrl: "/documents/raphaelzaayacv.pdf"
+    cvUrl: "/documents/Full-stackcv.pdf"
   },
 
-  companies: [
+ companies: [
     {
       id: "company-1",
-      name: "TechCorp",
-      logo: "/images/companies/techcorp-logo.png",
-      url: "https://techcorp.com"
+      name: "Uootes",
+      logo: "/images/companies/uootes-logo.png",
+      url: "https://uootes.com"
     },
+   /*
     {
       id: "company-2", 
       name: "InnovateLabs",
@@ -34,7 +35,9 @@ export const portfolioData: PortfolioData = {
       logo: "/images/companies/enterprise-logo.png",
       url: "https://enterprise-solutions.com"
     }
+     */ 
   ],
+  
 
   experience: {
     yearsOfExperience: 1,
@@ -61,7 +64,7 @@ export const portfolioData: PortfolioData = {
   },
 
   about: {
-    bio: "As an Industrial Physics graduate and dedicated software developer, I'm driven by the challenge of turning ideas into practical, impactful digital solutions. I enjoy exploring how technology can simplify real-world problems and I'm especially focused on building scalable, high-performance web applications that deliver smooth and meaningfu user experiences. With experinece across both frontend and backend development, I approach every project with a balance of technical depth and clear problem-solving. My background in science strengthens my analytical thinking, helping me design systems that are efficient, reliable and adaptable. I', particularly passionate about creating clean architectures, improving performance and developing solutions that aligns with real business needs. Every line of code is an opportunity for me to build something that works, matters and can grow",
+    bio: "As an Industrial Physicist and dedicated software developer, I'm driven by the challenge of turning ideas into practical, impactful digital solutions. I enjoy exploring how technology can simplify real-world problems and I'm especially focused on building scalable, high-performance web applications that deliver smooth and meaningfu user experiences. With experinece across both frontend and backend development, I approach every project with a balance of technical depth and clear problem-solving. My background in science strengthens my analytical thinking, helping me design systems that are efficient, reliable and adaptable. I'm, particularly passionate about creating clean architectures, improving performance and developing solutions that aligns with real business needs. Every line of code is an opportunity for me to build something that works, matters and can grow",
     photo: "/images/profile/hero-photo.jpeg",
     technologies: [
       "JavaScript", "TypeScript", "React",  "Node.js", 
@@ -70,8 +73,18 @@ export const portfolioData: PortfolioData = {
     ]
   }, 
  projects: [
-    {
+  {
       id: "project-1",
+      name: "Uootes Platform",
+      description: "Collaborated on the development of Uootes.com, a comprehensive platform where I implemented API integration from Swagger documentation and refined the UI structure. This project involved working with RESTful APIs, improving user experience through thoughtful interface design, and ensuring seamless data flow between frontend and backend systems.",
+      technologies: ["React", "TypeScript", "REST APIs", "Swagger", "Tailwind CSS", "API Integration"],
+      screenshot: "/images/profile/uootes.png",
+      liveUrl: "https://uootes.com",
+      githubUrl: "Uootes-Technology-front", 
+      featured: true
+    },
+    {
+      id: "project-2",
       name: "An AI assistant Medical platform",
       description: "MediMama is an intuitive health app that provides quick, AI-powered guidance based on user-described symptoms. With a clean interface and practical recommendations, it simplifies access and reliable health information while encouraging professional care when needed. This project highlights my skills in building user-focused, scalable applications with real-world impact",
       technologies: ["React", "Node.js", "MongoDB", "Tailwind CSS",  "Google Germini AI", ],
@@ -81,7 +94,7 @@ export const portfolioData: PortfolioData = {
       featured: true
     },
     {
-      id: "project-2",
+      id: "project-3",
       name: "ShePower Nexus Hub",
       description: "Collaborate to build a women learning empoverment platform where users can register to take courses and complete a a learning track and earn digital stars while acquiring digital skills.",
       technologies: ["React", "Express", "MongoDB", "Tailwind CSS", "shadcn", "Socket.io", "Tailwind CSS"],
@@ -91,7 +104,7 @@ export const portfolioData: PortfolioData = {
       featured: true
     },
     {
-      id: "project-3",
+      id: "project-4",
       name: "Ter Business",
       description: "Ter business is a simple yet powerful business tracking app built for small business owners, students, and entrepreneurs. it helps users manage daily sales and expenses, calculate profits, generate receipts, and even receive ai-powered business advice — all in one place",
       technologies: ["React", "CSS", "HTML", "Google Germini AI"],
@@ -99,7 +112,8 @@ export const portfolioData: PortfolioData = {
       liveUrl: "https://zaayaraphael.github.io/ter-business/",
       githubUrl: "https://github.com/Zaayaraphael/ter-business?tab=readme-ov-file",
       featured: true
-    }
+    },
+    
   ],
 
   education: [
@@ -109,7 +123,7 @@ export const portfolioData: PortfolioData = {
       title: "Bachelor of Science in Industrial Physics",
       institution: "Joseph Sarwuan Tarka University, Makurdi",
       dates: "2019 - 2024",
-      description: "Earned a solid foundation in analytical thinking, problem-solving and scientific reasoning, with hands-on experience in research, data interpretation and real-world system analysis. Conducted a research on The Annealing Effect on the Optical Properties of Zinc Doped Cadmium Sulfide (CDS:Zn) Thin Films. This background strengthens my structured approach to technology and software development.",
+      description: "Earned a solid foundation in analytical thinking, problem-solving and scientific reasoning, with hands-on experience in research, data interpretation and real-world system analysis. Conducted a research on Effect of Zinc Concentration on Optical Properties of Annealed Cadmium Sulfide Thin Films. This background strengthens my structured approach to technology and software development.",
       certificateUrl: "/certificates/result.jpg"
     },
     {
@@ -162,14 +176,14 @@ export const portfolioData: PortfolioData = {
       url: "https://linkedin.com/in/zaaya-raphael",
       icon: "linkedin"
     },
-    /*
+    
       {
       id: "social-3",
       platform: "Twitter",
       url: "https://twitter.com/zaaya_raphael",
       icon: "twitter"
     },
-    */
+    
     
     {
       id: "social-4",
