@@ -6,7 +6,7 @@ export const portfolioData: PortfolioData = {
     title: "Full Stack Software Engineer",
     bio: "I'm a full-stack software engineer based in Jos - Plateau State, Nigeria with 1+ years of hands-on experience building scalable, user-friendly web applications using MERN stack. I enjoy turning real problems into simple, functional solutions - whether it's clean APIs, optimizing frontend performance, or integrating AI features that make product smarter. My work focuses on writing maintainable code, improving application reliability, and delivering smooth user experiences. I thrive in fast-learning environments, collaborate well with teams, and continually challenge myself to master both frontend and backend development",
     photo: "/images/profile/hero-photo.jpeg",
-    cvUrl: "/documents/Full-stackcv.pdf"
+    cvUrl: "/documents/Raphael-Zaaya-full-stackcv.pdf"
   },
 
  companies: [
@@ -73,18 +73,31 @@ export const portfolioData: PortfolioData = {
     ]
   }, 
  projects: [
+ 
   {
       id: "project-1",
-      name: "Uootes Platform",
-      description: "Collaborated on the development of Uootes.com, a comprehensive platform where I implemented API integration from Swagger documentation and refined the UI structure. This project involved working with RESTful APIs, improving user experience through thoughtful interface design, and ensuring seamless data flow between frontend and backend systems.",
+      name: "Uootes Technology",
+      description: "Collaborated on the development of Uootes Technology, a comprehensive platform where I implemented API integration from Swagger documentation and refined the UI structure. This project involved working with RESTful APIs, improving user experience through thoughtful interface design, and ensuring seamless data flow between frontend and backend systems.",
       technologies: ["React", "TypeScript", "REST APIs", "Swagger", "Tailwind CSS", "API Integration"],
       screenshot: "/images/profile/uootes.png",
       liveUrl: "https://uootes.com",
       githubUrl: "Uootes-Technology-front", 
       featured: true
     },
-    {
+  {
+    
       id: "project-2",
+      name: "Raphael's Academy School",
+      description: "A comprehensive full-stack web application that streamlines school operations for multiple user roles—Admin, Admission Officer, Exam Officer, Teacher, and Student. Features secure authentication, automated result computation, dynamic dashboards, PDF report generation, and responsive design for seamless management from mobile to desktop",
+      technologies: ["React","React Router", "Tailwind CSS", "Axios", "Vite", "Node.js", "Express", "MongoDB", "JWT Authentication","bcrypt", "Multer", "PDFKit",],
+      screenshot: "/images/projects/raphaelsch.png",
+      liveUrl: "https://rapahelschool.vercel.app",
+      githubUrl: "https://github.com/Zaayaraphael/St.-Rapahel-s-Sec.-Sch",
+      featured: true
+    },
+ 
+    {
+      id: "project-3",
       name: "An AI assistant Medical platform",
       description: "MediMama is an intuitive health app that provides quick, AI-powered guidance based on user-described symptoms. With a clean interface and practical recommendations, it simplifies access and reliable health information while encouraging professional care when needed. This project highlights my skills in building user-focused, scalable applications with real-world impact",
       technologies: ["React", "Node.js", "MongoDB", "Tailwind CSS",  "Google Germini AI", ],
@@ -94,7 +107,7 @@ export const portfolioData: PortfolioData = {
       featured: true
     },
     {
-      id: "project-3",
+      id: "project-4",
       name: "ShePower Nexus Hub",
       description: "Collaborate to build a women learning empoverment platform where users can register to take courses and complete a a learning track and earn digital stars while acquiring digital skills.",
       technologies: ["React", "Express", "MongoDB", "Tailwind CSS", "shadcn", "Socket.io", "Tailwind CSS"],
@@ -103,16 +116,7 @@ export const portfolioData: PortfolioData = {
       githubUrl: "https://github.com/Zaayaraphael/plp-mern-ricky-rexis-project",
       featured: true
     },
-    {
-      id: "project-4",
-      name: "Ter Business",
-      description: "Ter business is a simple yet powerful business tracking app built for small business owners, students, and entrepreneurs. it helps users manage daily sales and expenses, calculate profits, generate receipts, and even receive ai-powered business advice — all in one place",
-      technologies: ["React", "CSS", "HTML", "Google Germini AI"],
-      screenshot: "/images/projects/terbiz.png",
-      liveUrl: "https://zaayaraphael.github.io/ter-business/",
-      githubUrl: "https://github.com/Zaayaraphael/ter-business?tab=readme-ov-file",
-      featured: true
-    },
+    
     
   ],
 
