@@ -40,7 +40,7 @@ export const portfolioData: PortfolioData = {
   
 
   experience: {
-    yearsOfExperience: 1,
+    yearsOfExperience: 2,
     services: [
       {
         id: "service-1",
