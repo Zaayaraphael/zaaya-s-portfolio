@@ -4,7 +4,7 @@ export const portfolioData: PortfolioData = {
   personal: {
     name: "Raphael Termough Zaaya",
     title: "Full Stack Software Engineer",
-    bio: "I'm a full-stack software engineer based in Jos - Plateau State, Nigeria with 1+ years of hands-on experience building scalable, user-friendly web applications using MERN stack. I enjoy turning real problems into simple, functional solutions - whether it's clean APIs, optimizing frontend performance, or integrating AI features that make product smarter. My work focuses on writing maintainable code, improving application reliability, and delivering smooth user experiences. I thrive in fast-learning environments, collaborate well with teams, and continually challenge myself to master both frontend and backend development",
+    bio: "I'm a full-stack software engineer based in Jos - Plateau State, Nigeria with 2+ years of hands-on experience building scalable, user-friendly web applications using MERN stack. I enjoy turning real problems into simple, functional solutions - whether it's clean APIs, optimizing frontend performance, or integrating AI features that make product smarter. My work focuses on writing maintainable code, improving application reliability, and delivering smooth user experiences. I thrive in fast-learning environments, collaborate well with teams, and continually challenge myself to master both frontend and backend development",
     photo: "/images/profile/hero-photo.jpeg",
     cvUrl: "/documents/Raphael-Zaaya-full-stackcv.pdf"
   },
@@ -64,7 +64,7 @@ export const portfolioData: PortfolioData = {
   },
 
   about: {
-    bio: "As an Industrial Physicist and dedicated software developer, I'm driven by the challenge of turning ideas into practical, impactful digital solutions. I enjoy exploring how technology can simplify real-world problems and I'm especially focused on building scalable, high-performance web applications that deliver smooth and meaningfu user experiences. With experinece across both frontend and backend development, I approach every project with a balance of technical depth and clear problem-solving. My background in science strengthens my analytical thinking, helping me design systems that are efficient, reliable and adaptable. I'm, particularly passionate about creating clean architectures, improving performance and developing solutions that aligns with real business needs. Every line of code is an opportunity for me to build something that works, matters and can grow",
+    bio: "As an Industrial Physicist and dedicated Software Engineer, I'm driven by the challenge of turning ideas into practical, impactful digital solutions. I enjoy exploring how technology can simplify real-world problems and I'm especially focused on building scalable, high-performance web applications that deliver smooth and meaningfu user experiences. With experinece across both frontend and backend development, I approach every project with a balance of technical depth and clear problem-solving. My background in science strengthens my analytical thinking, helping me design systems that are efficient, reliable and adaptable. I'm, particularly passionate about creating clean architectures, improving performance and developing solutions that aligns with real business needs. Every line of code is an opportunity for me to build something that works, matters and can grow",
     photo: "/images/profile/hero-photo.jpeg",
     technologies: [
       "JavaScript", "TypeScript", "React",  "Node.js", 
